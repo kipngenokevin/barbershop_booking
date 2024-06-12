@@ -78,13 +78,19 @@ input[type='radio'] {
 @media only screen and (min-width: 1024px) {
     /* LANDING SECTION */
 	.add-top-padding {
-	padding-top: 7rem;
+		padding-top: 7rem;
 	}
-	.checkout {
-		padding: 0rem 4rem !important;
-	}
+
 	table {
-		min-width: 100%;
+		min-width: 90%;
+	}
+
+	li {
+		padding: 1rem 0rem;
+	}
+
+	.services {
+		padding-left: 2rem;
 	}
 }
 
