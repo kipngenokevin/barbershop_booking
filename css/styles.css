@@ -18,7 +18,10 @@ ul {
 }
 
 /* TABLE FORMATING */
-
+table {
+	min-width: 80%;
+    max-width: 80%;
+}
 
 td {
 	text-align: start;
@@ -30,6 +33,11 @@ td {
 
 td:nth-child(2) {
 	text-align: end;
+}
+
+td p {
+	text-align: left;
+	text-wrap: wrap;
 }
 
 /* FORM ELEMENTS */
